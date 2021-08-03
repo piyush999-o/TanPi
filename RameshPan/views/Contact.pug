@@ -1,0 +1,21 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/contact.css
+block nav 
+    nav.navbar 
+        ul.navbar-ul  
+            li.navbar-li 
+                img#logo(src="../static/RP.png")
+            li.navbar-li#home
+                a(href="/") Home 
+            li.navbar-li#about
+                a(href="/about") About 
+            li.navbar-li#contact
+                a(href="/contact") Contact us 
+            li.navbar-li#search-li 
+                input#search(type="search", name="search")
+                button#search-btn(type="submit") Search 
+block content 
+    input#mail(type="mail-to", mailto="magicianworld99@gmail.com")

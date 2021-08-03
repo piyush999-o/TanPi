@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Righteous&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    height: 35px;
+    width: 35px;
+}
+body{
+    background-color: #ececec;
+    height: max-content;
+    content:"\f002";
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-ul{
+    padding-left: 10px;
+    background-color: rgb(2, 0, 29);
+    height: 35px;
+    width: 100%;
+}
+.navbar-li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    transition: .5s;
+}
+#home:hover, #about:hover, #contact:hover{
+    background-color: blue;
+}
+#contact{
+    height: 34px;
+    border-bottom: 4px solid blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+}
+#search-li{
+    position: absolute;
+    right: 20px;
+    margin: 0 auto;
+}
+#search{
+    border: 2px solid rgba(0, 217, 255, 0.747);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#search-btn{
+    background-color: aqua;
+    border: 0px solid aqua;
+    height: 19px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Meriendo, cursive;
+    font-weight: 900;
+    padding: 0 5px;
+    position: relative;
+    top: 1px;
+}
+
+#foot{
+    position: absolute;
+    margin-bottom: 0;
+}
